@@ -1,0 +1,61 @@
+HOJA 6
+
+Ejercicio 1. Crea un fichero y escribe una palabra (en cualquier idioma) que no tenga una traducción clara en otros idiomas. Cierra el fichero. Vuelve a abrir el fichero y agrega su significado y el idioma de donde proviene.
+Posteriormente manda ese fichero al grupo de Teams para que lo pueda ver. Me gusta mucho aprender esas palabras. Por ejemplo:
+
+Kilig.
+Filipino / Talago. Es la sensación de sentir mariposas en el estómago cuando conversas con alguién que te resulta atractivo. Se usa en la cultura filipina para referirse a la emoción en situaciones románticas.
+
+Mandar por e-mail normal a Ignacio.
+
+Ejercicio 2. Escribe un programa que analice el fichero de texto cuyo nombre se especifica interactivamente y muestre por pantalla la siguiente información:
+	a) Para cada línea del fichero:
+		• El número total de caracteres y de palabras, y la longitud media de una palabra.
+		• La letra con que termina la primera palabra y el número de palabras que terminan con esa letra.
+	b) Para el fichero completo:
+		• El número total de caracteres, palabras y líneas del fichero, y la longitud media de una palabra.
+		• El número de la línea en la que hay más palabras, junto con el número de palabras en esa línea.
+
+El número de la línea en la que hay más palabras que acaban como la primera, junto con el número de esas palabras.
+
+
+Ejercicio 3. Dada una palabra, diremos que está escondida en un texto si está contenida en éste, no necesariamente de forma continua. Por ejemplo, la palabra “elefante” está escondida en la frase
+“El hermano de Francisco tuvo suerte”. Elabora un programa que lea una palabra de teclado y el nombre de un fichero de texto, y mire a ver si la palabra está escondida en el fichero.
+Si está nos debe de indicar el menor número de carácter en el que ya está contenida. Si no está nos tiene también que informar de esa incidencia. La palabra a buscar
+no tendrá más de 50 caracteres, pero desconocemos su longitud.
+
+
+Ejercicio 4. La Organización Nacional de Loterías y Apuestas del Estado (ONLAE), con motivo del sorteo extraordinario de Navidad del 22 de Diciembre, ha decidido publicar a la finalización del sorteo
+un fichero secuencial de enteros “sorteo”, con todos los números premiados que han sido extraídos del bombo y el importe correspondiente a cada euro jugado.
+Es decir, este fichero tendrá los números correspondientes a:
+	• Un primer premio de 3.000.000 euros (15.000 euros por euro jugado).
+	• Un segundo premio de 1.000.000 euros (5.000 euros por euro).
+	• Un tercer premio de 500.000 euros (2.500 euros).
+	• Dos cuartos premios de 200.000 euros (1000 euros).
+	• Ocho quintos premios de 50.000 euros (250 euros).
+	• 1531 números premiados con 1.000 euros (5 euros).
+
+Además de los números extraídos del bombo, también se premian de forma acumulativa:
+	• Los números anteriores y posteriores al primer premio (con 100 euros por euro jugado).
+	• Los números anteriores y posteriores al segundo premio (con 60 euros por euros jugado).
+	• Los números anteriores y posteriores al tercer premio (con 48).
+	• El resto de los números pertenecientes a la centena del primer, segundo, y tercer premio (con 5 euros, excepto el propio premio).
+	• Los números cuyas dos últimas cifras coinciden con las del primer, segundo y tercer premio (con 5 euros, excepto el propio premio).
+	• Reintegro para los números cuya última cifra coincide con la del primer premio, excepto él mismo.
+
+Escribe un programa que permita las siguientes opciones:
+	• Simular el sorteo generando un fichero “sorteo” aleatoriamente.
+	• Indicar en qué fichero de texto tiene el usuario guardado (por líneas con un espacio en blanco entre ellos) sus números junto con las cantidades en euros
+que juega de cada uno de ellos,
+y facilitarle información de cuánto ha gastado, cuánto gana y con qué números y por qué causa (desglosado).
+	• Permitirle introducir interactivamente un número junto con la cantidad jugada y decirle lo que le corresponde en premios.
+
+Nota aclaratoria: Cualquier parecido con la realidad es pura coincidencia. Se han utilizado cuantías y cantidad de premios de sorteos pasados
+y no se garantiza que en el futuro esto se mantenga así.
+Para más información contactar con la ONLAE.
+
+
+Ejercicio 5. Modifica el juego de la vida 2D para permitir guardar y recuperar tableros en ficheros.
+
+
+Ejercicio 6. Modifica el juego de hundir la flota para permitir guardar y recuperar partidas en ficheros.

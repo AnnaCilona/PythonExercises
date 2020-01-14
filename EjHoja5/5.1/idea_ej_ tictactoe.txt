@@ -1,0 +1,16 @@
+'''while tablero[x][y-1]>=len(tablero) and tablero[x][y+1]>=len(tablero):
+            if tablero[x][y]=jugador and tablero[x][y-1]=jugador and tablero[x][y+1]=jugador
+                print(jugador + " ha hecho un 3 en raya")
+                return True
+        while tablero[x-1][y]>=len(tablero) and tablero[x+1][y]>=len(tablero):
+            if tablero[x][y]=jugador and tablero[x-1][y]=jugador and tablero[x+1][y]=jugador
+                print(jugador + " ha hecho un 3 en raya")
+                return True
+        while tablero[x-1][y-1]>=len(tablero) and tablero[x+1][y+1]>=len(tablero):
+            if tablero[x][y]=jugador and tablero[x-1][y-1]=jugador and tablero[x+1][y+1]=jugador
+                print(jugador + " ha hecho un 3 en raya")
+                    return True
+        while tablero[x-1][y+1]>=len(tablero) and tablero[x+1][y-1]>=len(tablero):
+            if tablero[x][y]=jugador and tablero[x-1][y+1]=jugador and tablero[x+1][y-1]=jugador
+                print(jugador + " ha hecho un 3 en raya")
+                return True'''
